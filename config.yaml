@@ -20,7 +20,7 @@ libraries:                       # This is called out once within the config.yml
     - default: basic                 # Creates Collections for New Episodes from last 7 days and Newly Released from past 90 days
     - default: based
       template_variables:
-        use_seperator: false
+        use_separator: false
     - default: oscars
       template_variables:
         use_year_collections: false
@@ -244,7 +244,7 @@ libraries:                       # This is called out once within the config.yml
     - default: basic                 # Creates Collections for New Episodes from last 7 days and Newly Released from past 90 days
     - default: based
       template_variables:
-        use_seperator: false
+        use_separator: false
     - default: imdb                  # Creates IMDB Collections for Popular and Top 250 
       template_variables:
         name_popular: IMDb Popular TV    #Option to rename the default "IMDb Popular" to a custom name
