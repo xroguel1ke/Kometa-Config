@@ -18,6 +18,23 @@ libraries:                       # This is called out once within the config.yml
     remove_overlays: false     # Set this to true to remove all overlays
     collection_files:
     - default: basic                 # Creates Collections for New Episodes from last 7 days and Newly Released from past 90 days
+    - default: seasonal                                 # Christmas, Halloween, etc.
+        template_variables:
+          exclude:
+          - years
+          - valentine
+          - patrick
+          - aapi
+          - disabilities
+          - black_history
+          - lgbtq
+          - latinx
+          - women
+          - veteran
+          - independence
+          - thanksgiving
+          - memorial
+          - labor
     - default: based
       template_variables:
         use_separator: false
