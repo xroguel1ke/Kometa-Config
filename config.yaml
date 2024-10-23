@@ -21,7 +21,6 @@ libraries:                       # This is called out once within the config.yml
     - default: seasonal                                 # Christmas, Halloween, etc.
         template_variables:
           exclude:
-          - years
           - valentine
           - patrick
           - aapi
