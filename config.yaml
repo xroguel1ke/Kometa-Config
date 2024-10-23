@@ -20,6 +20,7 @@ libraries:                       # This is called out once within the config.yml
     - default: basic                 # Creates Collections for New Episodes from last 7 days and Newly Released from past 90 days
     - default: seasonal                                 # Christmas, Halloween, etc.
         template_variables:
+          use_separator: false
           exclude:
           - valentine
           - patrick
