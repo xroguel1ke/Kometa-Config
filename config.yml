@@ -18,6 +18,24 @@ libraries:                       # This is called out once within the config.yml
     remove_overlays: false     # Set this to true to remove all overlays
     collection_files:
     - default: basic                 # Creates Collections for New Episodes from last 7 days and Newly Released from past 90 days
+    - default: letterboxd
+      template_variables:
+        - use_top_250: false
+        - use_boxofficemojo_100: false
+        - use_afi_100: true
+        - use_sight_sound: false
+        - use_1001_movies: true
+        - use_edgarwright: false
+        - use_rogerebert: false
+        - use_women_directors: false
+        - use_black_directors: false
+        - use_most_fans: true
+        - use_documentaries: false
+        - use_animation: true
+        - use_horror: true
+        - use_imdb_top_250: false
+        - use_oscars: false
+        - use_cannes: false
     - default: seasonal
       template_variables:
         use_separator: false
